@@ -1,0 +1,700 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+header nav img{
+    width: 170px;
+}
+nav {
+  background-color: white;
+}
+button:active{
+    opacity: 0.7;
+}
+.nav-item {
+  padding-right: 2em;
+}
+.nav-item a {
+    font-family: 'Inter', sans-serif; 
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #1f1f1f;
+}
+.nav-link button {
+  color: #1f1f1f;
+  background: #f2c745;
+  font-weight: 600;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 12px;
+}
+@media screen and (max-width:322px) {
+    header .navbar-toggler{
+        margin-left: -30px;
+    }
+}
+@media screen and (max-width:282px) {
+    header .navbar-toggler{
+        margin-left: -48px;
+    }
+}
+
+/*   SECTION 1    */
+.section-1 {
+    margin: auto;
+    padding: 20.5vmin 0;
+    background: #FDF5DE;
+}
+
+.section-1 .container {
+    margin-top: -30px;
+}
+.section-1 h2 {
+    margin: auto;
+    padding-bottom: 10px;
+    width: 80%;
+      font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 58px;
+    color: #1F1F1F;
+    text-transform: capitalize;
+  }
+  .section-1 p {
+    margin: auto;
+    width: 70%;
+      font-family: 'Space Grotesk', sans-serif;
+      color: #525252;
+    font-weight: 400;
+    font-size: 19px;
+    padding-bottom: 70px;
+  }
+  .section-1 button {
+    color: #FFFFFF;
+    background: #A041F6;
+    font-weight: 600;
+    padding: 18px 60px;
+    border: none;
+    border-radius: 12px;
+  }
+  @media screen and (max-width:770px) {
+    .section-1 h2 {
+      font-size: 32px;
+    }
+   }
+   @media screen and (max-width:430px) {
+    .section-1 h2 {
+        padding-top: 30px;
+        width: 100%;
+        font-size: 30px;
+    }
+    .section-1 p {
+        padding-top: 30px;
+        width: 100%;
+    }
+}
+
+  
+/* 
+@media screen and (max-width:1030px) {
+    .section-1 p {
+     width: 60%;
+    }
+    header nav img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:770px) {
+    .section-1{
+        background-size: cover;
+    }
+
+    .section-1 h2 {
+       width: 79%;
+    }
+}
+@media screen and (max-width:430px) {
+    .section-1 h2 {
+        width: 82%;
+        font-size: 30px;
+    }
+
+    .section-1 button{
+        padding: 18px 30px;
+    }
+
+    .section-1 p {
+        width: 90%;
+    }
+}
+@media screen and (max-width:322px){
+    .section-1 button{
+        padding: 18px 20px;
+    }
+    .section-1 h2 {
+        font-size: 25px;
+    }
+
+} */
+
+/* SECTION 2 */
+.section-2{
+    background: #FDF5DE;
+    padding: 50px 0;
+}
+
+.section-2 ul li {
+   display: inline-block;
+  list-style: none;
+  padding-right: 3em;
+}
+.section-2 ul li img{
+    width: 110px;
+}
+
+
+@media screen and (max-width:1030px) {
+    .section-2 ul li{
+        padding-right: 1em;
+    }
+}
+@media screen and (max-width:430px) {
+    .section-2 ul li{
+        padding-bottom: 1.3em;
+    }
+}
+
+
+/* SECTION */
+.section-3{
+    padding: 40px 0;
+}
+.section-3 h2{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+.section-3 .card{
+    border-radius: 12px;
+    margin-bottom: 10px;
+    background: #FFFFFF;
+    border: none;
+}
+.section-3 .card-1 {
+    background: #F9F9F9;
+}
+.section-3 .card .card-img-top img{
+    width: 100%;
+}
+.section-3 .card-body{
+    border-radius: 12px;
+    /* padding: 35px 10px 10px 10px; */
+    margin-bottom: 10px;
+    display: flex;
+    /* width: 100%;
+    height: 184px; */
+}
+.section-3 .card-body .ellipse{
+    flex: 0 0 auto;
+    width: 3.2rem;
+    height: 3.2rem;
+    margin-right: 25px;
+    background: #F9F9F9;
+    border-radius: 3.2rem;
+    text-align: center;
+    line-height: 3.2rem;
+    font-weight: 600;
+    font-size: calc(3.2rem * 0.42);
+}
+.section-3 .card-body .text{
+    font-family: 'Space Grotesk', sans-serif;
+    padding-top: 8px;
+}
+.section-3 .card-body .text h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+.section-3 .card-body .text p{
+
+    font-weight: 400;
+    font-size: 16px;
+}
+.content-1 .ellipse{
+color: #A041F6;
+}
+.content-2 .ellipse{
+color: #F2C745;
+}
+.content-3 .ellipse{
+color: #F44742;
+}
+.content-4 .ellipse{
+    color: #26BCF9;
+}
+.content-5 .ellipse{
+    color: #1F1F1F;
+}
+.content-6 .ellipse{
+   color: #A041F6;
+}
+
+
+
+@media screen and (max-width:1030px) {
+    .section-3 .content{
+        width: 100%;
+    }
+}
+@media screen and (max-width:282px) {
+    .section-3 .text{
+        width: 100%;
+        padding-top: 2px;
+    }
+    .section-3 .content .text p{
+        font-weight: 400;
+        font-size: 12px;
+    }
+}
+
+/* SECTION-4 */
+.section-4{
+    background: #FDF5DE;
+    padding: 35px 0;
+}
+.section-4 h2{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 51px;
+color: #1F1F1F;
+}
+.section-4 p{
+    margin: auto;
+    width: 72%;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #525252;    
+    padding-bottom: 12px;
+}
+.section-4 h3{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    color: #1F1F1F;
+}
+#text{
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+.section-4 button{
+    color: #FFFFFF;
+    background: #A041F6;
+    font-weight: 600;
+    padding: 18px 50px;
+    border: none;
+    border-radius: 12px;
+}
+@media screen and (max-width:430px){
+    .section-4 h2{
+        width: 100%;
+    }
+    .section-4 p{
+        width: 100%;
+    }
+    .section-4 h3{
+        width: 100%;
+    }
+}
+ 
+
+
+/* SECTION 5 */
+
+.section-5 {
+    padding: 80px 0;
+}
+.section-5 h2{
+    margin: auto;
+    font-family: 'Space Grotesk';
+  font-style: normal;
+font-weight: 500;
+font-size: 32px;
+width: 62%;
+color: #1F1F1F;
+padding-bottom: 15px;
+}
+.section-5 #para {
+    margin: auto;
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+width: 55%;
+line-height: 26px;
+color: #525252;
+}
+.section-5 #paras {
+    margin: auto;
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+width: 59%;
+padding-bottom: 30px;
+line-height: 26px;
+color: #525252;
+}
+.section-5 .align{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+.section-5 .rows {
+    margin-left: 9.5%;
+ width: 44em;
+ display: flex;
+ flex-wrap: wrap;
+ align-self: center;
+align-items: center;
+}
+.section-5 .box {
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px 40px;
+}
+.section-5 .box p {
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 26px;
+color: #1F1F1F;
+    margin-top: 1rem;
+}
+
+.section-5 [beginner] {
+background: #DDC7F3;
+}
+
+.section-5 [Videos]{
+    background: #FBEEC6;
+}
+.section-5 [Learning]{
+    background: #DDF4FE;
+}
+.section-5 [Mentorship]{
+    background: #FCD0CF;
+}
+
+.section-5 button{
+    border: 1px solid #A041F6;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 14px 28px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+color: #1F1F1F;
+}
+@media screen and (max-width:430px){
+    .section-5 h2{
+        width: 100%;
+    }
+    .section-5  #para{
+        width: 100%;
+    }
+    .section-5  #paras{
+        width: 100%;
+    }
+}
+ 
+
+
+/* SECTION 6 */
+.section-6{
+    background: #E9D3FD;
+    padding-top: 50px;
+    padding-bottom: 100px;
+} 
+
+.section-6 .texts h3{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 51px;
+    text-align: center;
+}
+.section-6 .texts p{
+    font-family: 'Space Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #525252;
+    text-align: center;
+}
+.section-6 .col-lg-5 img{
+    width: 410px;
+}
+.section-6 .col-lg-7  .main{
+    display: flex;
+    flex-flow: row;
+    padding-top: 1em;
+    padding-right: 9em;
+    width: 90%;
+    height: 90%;
+}
+.section-6 .col-lg-7 .row{
+    margin-top: -10px;
+margin-left: 20px;
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 16px;
+}
+
+.section-6 .main .text{
+    font-family: 'Space Grotesk', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+color: #525252;
+}
+.section-6 .main .text1{
+margin-bottom: 49px;
+}
+.section-6 .main .text2{
+    margin-bottom: 29px;
+}
+.section-6 .main button{
+    color: #1f1f1f;
+    background: #f2c745;
+    font-weight: 600;
+    padding: 16px 20px;
+    margin-left: 80px;
+    width: 50%;
+    border: none;
+    border-radius: 12px;
+}
+
+@media screen and (max-width:1030px) {
+    .section-6 .col-lg-5 img{
+        width: 100%;
+    }
+    .section-6 .col-lg-7  .main{
+        width: 100%;
+        height: 100%;
+    }
+     .vector{
+      margin-left: -340px;
+    }
+}
+@media screen and (max-width:850px){
+    .Number{
+        height: 50%;
+    }
+}
+@media screen and (max-width:770px) {
+    .section-6 .col-lg-7  .main{
+        padding-right: 50px;
+    }
+    .section-6 .main button{
+        margin-left: 50px;
+    }
+    .section-6 .col-lg-5 img{
+        height: 70%;
+    }
+}
+
+@media screen and (max-width:430px){
+    .Number{
+        height: 50%;
+    }
+    .section-6 .main button{
+        
+        margin-left: 70px;
+    }
+}
+@media screen and (max-width:330px){
+    .section-6 .main button{
+        margin-left: -10px;
+        width: 100%;
+    }
+}
+ 
+ 
+
+
+/* SECTION 7 */
+.section-7{ 
+    padding-top: 100px;
+    padding-bottom: 50px;
+    }
+    .section-7 h3{
+        font-family: 'Space Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 51px;
+    color: #1F1F1F;
+    }
+    .section-7 p{
+        font-family: 'Space Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    color: #525252;
+    }
+    .section-7 form{
+        width: 40%;
+        padding: 35px 0;
+        background: #F9F9F9;
+        border-radius: 12px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-7 input {
+        width: 250px;
+        border: 1px solid #A7A7A7;
+    }
+    .section-7 textarea{
+        width: 250px;
+        resize: none;
+    }
+    .section-7 label{
+        font-family: 'Space Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.5px;
+    line-height: 20px;
+    color: #000000;
+    }
+    .section-7 form button{
+        color: #1f1f1f;
+        background: #f2c745;
+        font-weight: 600;
+        padding: 16px 50px;
+        border: none;
+        border-radius: 12px;
+    }
+    @media screen and (max-width:770px) {
+        .section-7 form{
+         width: 60%;
+        }
+        
+    }
+    @media screen and (max-width:430px) {
+        .section-7 form{
+            width: 100%;
+        }
+           
+    } 
+    
+    /* FOOTER */
+    footer{
+        background: #161824; 
+        padding-bottom: 3px;
+    }
+    footer ul{
+        margin-top: 10px;
+    }
+    footer ul li{
+        list-style: none;
+        padding-bottom: 10px;
+    }
+    footer ul li a{
+        font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    }
+    footer h3{
+        color: #FFFFFF;  
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 20px;
+        
+    }
+    footer .column i{
+        width: 30px;
+        height: 30px;
+        padding-top: 6px;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 700.333px;
+        color: #FFFFFF;
+    }
+    
+    .fot{
+        padding-top: 60px;
+        border-right: 0.758333px solid #FFFFFF;
+        border-bottom:  0.758333px solid #FFFFFF;
+        padding-bottom: 30px;
+        margin-bottom: 20px;
+    }
+    
+    /* footer .col-lg-3 , footer .col-lg-2{
+        border-right: 0.758333px solid #FFFFFF;
+    } */
+    footer .col-lg-4{
+        padding-left: 120px;
+        padding-right: 30px;
+    }
+    footer .col-lg-4 img{
+        width: 200px;
+    }
+    footer .follow{
+        padding-top: 62px;
+        padding-left: 70px;
+    }
+    footer .ftext p{
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: #FFFFFF;
+        text-align: center;
+        padding-bottom: 8px;
+    }
+    @media screen and (max-width:1030px) {
+        footer .col-lg-4{
+            padding-left: 50px;
+            padding-right: 30px;
+        }
+       
+    }
+    @media screen and (max-width:770px) {
+        .fot{
+            margin-bottom: 0px;
+        }
+        footer .ftext p{
+           padding-top: 30px;
+        }
+        footer .col-lg-4 img{
+            max-width: 100%;
+        }
+    }
+    
+
+
