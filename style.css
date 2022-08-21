@@ -147,6 +147,9 @@ button:active{
     }
 }
 @media screen and (max-width:430px) {
+    .section-2 ul{
+        margin-left: -33px;
+    }
     .section-2 ul li{
         padding-bottom: 1.3em;
     }
@@ -276,11 +279,13 @@ color: #F44742;
     left: 4em; */
     width: 60%;
      margin: auto;
-     margin-top: -175px;
+     margin-top: -160px;
     align-items: center;
     text-align: center;
 }
-
+.section-4 .row .text2{
+margin-top: -180px;
+}
 
 @media screen and (max-width:980px) {
     .section-4 .hex{
@@ -305,6 +310,7 @@ color: #F44742;
     .section-4 .para{
       width: 100%;
     }
+    
     .texts{
         /* width: 10em;
         position: absolute;
@@ -325,6 +331,9 @@ color: #F44742;
     .section-4 .para{
       width: 100%;
     }
+    .section-4 .row .text2{
+        margin-top: -160px;
+    }
     .texts{
         /* width: 10em;
         position: absolute;
@@ -333,6 +342,11 @@ color: #F44742;
         width: 55%;
     }
     
+}
+@media screen and (max-width:332px) {
+    .section-4 .row .text2{
+        margin-top: -180px;
+    }
 }
 
 /* @media screen and (max-width:380px) {

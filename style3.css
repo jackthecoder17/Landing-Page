@@ -167,6 +167,9 @@ button:active{
     }
 }
 @media screen and (max-width:430px) {
+    .section-2 ul{
+        margin-left: -33px;
+    }
     .section-2 ul li{
         padding-bottom: 1.3em;
     }
